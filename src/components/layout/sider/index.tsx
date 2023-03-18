@@ -117,7 +117,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                       "&:hover": {
                         backgroundColor: "transparent",
                       },
-                      backgroundColor: "transparent",
+                      backgroundColor: "red",
                     },
                   }}
                 >

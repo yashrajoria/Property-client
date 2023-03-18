@@ -1,0 +1,22 @@
+#pie-chart {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: azure;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 2px;
+    gap: 2px;
+    min-height: 110px;
+    width: fit-content;
+}
+/* 
+#totalRevenue {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    flex: 1;
+    background-color: "azure";
+} */

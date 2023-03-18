@@ -2,7 +2,7 @@ import React from 'react'
 
 const editProperty = () => {
     return (
-        <div>editProperty</div>
+        <div>editPropertie</div>
     )
 }
 
