@@ -14,9 +14,8 @@ import {
   ChatBubbleOutlined,
   PeopleAltOutlined,
   StarOutlineRounded,
-  VillaOutlined
-} from "@mui/icons-material"
-
+  VillaOutlined,
+} from "@mui/icons-material";
 
 import dataProvider from "@pankod/refine-simple-rest";
 import { MuiInferencer } from "@pankod/refine-inferencer/mui";
@@ -33,7 +32,7 @@ import {
   AllProperties,
   CreateProperty,
   AgentProfile,
-  EditProperty
+  EditProperty,
 } from "pages";
 import { CredentialResponse } from "interfaces/google";
 import { parseJwt } from "utils/parse-jwt";
@@ -123,30 +122,30 @@ function App() {
                 show: PropertyDetails,
                 create: CreateProperty,
                 edit: EditProperty,
-                icon: <VillaOutlined />
+                icon: <VillaOutlined />,
               },
               {
                 name: "agents",
                 list: Agents,
                 show: AgentProfile,
-                icon: <PeopleAltOutlined />
+                icon: <PeopleAltOutlined />,
               },
               {
                 name: "reviews",
                 list: Home,
 
-                icon: <StarOutlineRounded />
+                icon: <StarOutlineRounded />,
               },
               {
                 name: "messages",
                 list: Home,
-                icon: <ChatBubbleOutlined />
+                icon: <ChatBubbleOutlined />,
               },
               {
                 name: "my profile",
                 options: { label: "My Profile" },
                 list: MyProfile,
-                icon: <AccountCircleOutlined />
+                icon: <AccountCircleOutlined />,
               },
             ]}
             Title={Title}
