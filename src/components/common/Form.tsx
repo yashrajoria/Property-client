@@ -56,6 +56,7 @@ const Form = ({
                             required
                             id="outlined-basic"
                             color="info"
+                            fontcolor="black"
                             variant="outlined"
                             {...register("title", { required: true })}
                         />
@@ -166,7 +167,12 @@ const Form = ({
                         />
                     </FormControl>
 
-                    <Stack direction="column" gap={1} justifyContent="center" mb={2}>
+                    <Stack
+                        direction="column"
+                        gap={1}
+                        justifyContent="center"
+                        mb={2}
+                    >
                         <Stack direction="row" gap={2}>
                             <Typography
                                 color="#11142d"
@@ -191,7 +197,9 @@ const Form = ({
                                     hidden
                                     accept="image/*"
                                     type="file"
-                                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                                    onChange={(
+                                        e: React.ChangeEvent<HTMLInputElement>,
+                                    ) => {
                                         handleImageChange(e.target.files![0]);
                                     }}
                                 />
