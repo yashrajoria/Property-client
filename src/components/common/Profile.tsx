@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import { ProfileProps } from "interfaces/common";
 
-const Profile = () => {
-    return (
-        <div>Profile</div>
-    )
-}
+const Profile = ({ type, name, avatar, email, properties }: ProfileProps) => {
+    return <div>Profile</div>;
+};
 
-export default Profile
+export default Profile;
